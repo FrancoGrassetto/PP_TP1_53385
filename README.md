@@ -13,19 +13,3 @@ Este proyecto implementa un sistema para la administración de **Eventos Univers
   * **Composición:** Entre `EventoUniversitario` y `Actividad` (las actividades nacen y existen como parte del evento).
   * **Asociación / Inscripción:** Entre `Actividad`, `Inscripcion` y `Estudiante`.
 
-
-
-# Estructura del Código
-
-
-src/
-└── main/
-    └── java/
-        ├── Actividad.java          # Clase abstracta base
-        ├── App.java                # Clase principal (punto de entrada)
-        ├── Charla.java             # Subclase de Actividad
-        ├── Estudiante.java         # Clase que representa a un alumno
-        ├── EventoUniversitario.java# Clase principal del dominio
-        ├── Inscripcion.java        # Relación entre Estudiante y Actividad
-        ├── Sala.java               # Representa la ubicación asignada
-        └── Taller.java             # Subclase de Actividad
