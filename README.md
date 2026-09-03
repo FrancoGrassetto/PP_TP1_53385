@@ -17,3 +17,4 @@ Agregación: Entre EventoUniversitario y Sala (la sala existe independientemente
 Composición: Entre EventoUniversitario y Actividad (las actividades nacen y existen como parte del evento).
 
 Asociación / Inscripción: Entre Actividad, Inscripcion y Estudiante.
+
